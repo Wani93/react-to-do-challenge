@@ -9,7 +9,7 @@ const Header = ({
   onFilterChange,
 }: {
   filters: Filters;
-  filter: string;
+  filter: Filter;
   onFilterChange: React.Dispatch<React.SetStateAction<Filter>>;
 }) => {
   const { darkmode, toggleDarkMode } = useDarkMode();
